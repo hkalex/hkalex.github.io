@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alex Yeung</title>
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+  <header class="container page-max-width page-header">
+    <div class="my-name">
+      <span>Alex</span> <span>Yeung</span>
+    </div>
+    <a href="#" class="nav-button" id="nav-button">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </a>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="#">Home</a>
+      <a class="nav-link" href="#">Resume</a>
+      <a class="nav-link" href="#">Services</a>
+      <a class="nav-link" href="#">Protfolio</a>
+      <a class="nav-link" href="#">Blog</a>
+      <a class="nav-link" href="#">Contact</a>
+    </nav>
+    <div class="clear"></div>
+  </header>
+  <div class="container page-max-width page-content">
+    <div class="card">
+      <div class="card-header my-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4 photo">
+              <img src="./img/photo.png" alt="Photo">
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8 text-center vertical-center">
+              <h1 class="my-name">Alex Yeung</h1>
+              <div class="my-title">Tech Lead</div>
+              <div class="my-links">
+                <button class="btn btn-default btn-circle">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </button>
+                <button class="btn btn-default btn-circle">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </button>
+                <button class="btn btn-default btn-circle">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-gl-6">
+              <h2><span>About</span> <span>Me</span></h2>
+              <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper
+                sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+              <div class="btn btn-light">Download Resume</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-gl-6">
+              <div class="row">
+                <div class="col-4">Age</div>
+                <div class="col">29</div>
+              </div>
+              <div class="row">
+                <div class="col-4">Residence</div>
+                <div class="col">Australia</div>
+              </div>
+              <div class="row">
+                <div class="col-4">Address</div>
+                <div class="col">Campsie</div>
+              </div>
+              <div class="row">
+                <div class="col-4">e-mail</div>
+                <div class="col">hkalex@gmail.com</div>
+              </div>
+              <div class="row">
+                <div class="col-4">Phone</div>
+                <div class="col">0401613888</div>
+              </div>
+              <div class="row">
+                <div class="col-4">Freelance</div>
+                <div class="col">Available</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="text-center">
+        &copy; 2017 All rights reserved.
+      </div>
+    </footer>
+  </div>
+</body>
+<script>
+  document.getElementById("nav-button").addEventListener("click", function () {
+    document.getElementById("nav").classList.toggle("show");
+  })
+
+</script>
+
+</html>
